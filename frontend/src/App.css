@@ -1,4 +1,4 @@
-.counter {
+/* .counter {
   font-size: 16px;
   padding: 5px 10px;
   border-radius: 5px;
@@ -181,4 +181,18 @@
     right: 0;
     border-right-color: var(--border);
   }
+} */
+
+:root {
+  --color-bg-main: #0F0F0F;
+  --color-bg-secondary: #1A1A1A;
+  --color-bg-card: #242424;
+
+  --color-text-primary: #F5F5F5;
+  --color-text-secondary: #A1A1A1;
+
+  --color-accent: #3B82F6;
+
+  --color-danger: #EF4444;
+  --color-success: #22C55E;
 }

@@ -1,16 +1,31 @@
-# React + Vite
+# ManVibe
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+ManVibe is a modern eCommerce website designed exclusively for men's products.  
+It focuses on minimal design, smooth user experience, and premium styling.
 
-Currently, two official plugins are available:
+## Features
+- Clean and modern UI
+- Dark theme optimized for men’s fashion
+- Transparent navbar with scroll effect
+- Reusable CSS variables (design system)
+- Responsive design
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Tech Stack
+- React.js
+- CSS3 (Custom Variables)
+- Vite
 
-## React Compiler
+## Color Palette
+- Primary Background: #0F0F0F
+- Secondary Background: #1A1A1A
+- Cards: #242424
+- Text: #F5F5F5, #A1A1A1
+- Accent: #3B82F6
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Installation
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```bash
+git clone https://github.com/your-username/manvibe.git
+cd manvibe
+npm install
+npm run dev

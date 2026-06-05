@@ -1,0 +1,53 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 15px 40px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  background: transparent;
+  color: var(--color-text-primary);
+
+  z-index: 1000;
+}
+
+/* Add blur effect (modern look) */
+.navbar {
+  backdrop-filter: blur(10px);
+}
+
+/* Logo */
+
+.logo img {
+  height: 40px;
+  object-fit: contain;
+}
+
+/* Links */
+.nav-links {
+  display: flex;
+  gap: 25px;
+  list-style: none;
+}
+
+.nav-links li {
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.nav-links li:hover {
+  color: var(--color-accent);
+}
+
+/* Button */
+.login-btn {
+  background: var(--color-accent);
+  border: none;
+  padding: 8px 16px;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+}
