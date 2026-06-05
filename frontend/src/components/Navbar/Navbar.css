@@ -1,53 +1,89 @@
 .navbar {
-  position: fixed;
-  top: 0;
-  width: 100%;
-  padding: 15px 40px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+  padding: 20px;
 
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
 
-  background: transparent;
-  color: var(--color-text-primary);
+    background: transparent;
+    color: var(--color-text-primary);
 
-  z-index: 1000;
+    z-index: 1000;
 }
 
-/* Add blur effect (modern look) */
 .navbar {
-  backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
 }
 
-/* Logo */
+/* Logo */  
 
 .logo img {
-  height: 40px;
-  object-fit: contain;
+    height: 55px;
+    object-fit: contain;
 }
 
 /* Links */
-.nav-links {
-  display: flex;
-  gap: 25px;
-  list-style: none;
+
+.nav-link.active {
+  color: var(--color-text-primary) !important;
 }
 
-.nav-links li {
-  cursor: pointer;
-  transition: 0.3s;
+.nav-link{
+    color: var(--color-text-primary);
 }
 
-.nav-links li:hover {
-  color: var(--color-accent);
+.nav-link:hover{
+    color: var(--color-accent)!important;
 }
 
 /* Button */
-.login-btn {
-  background: var(--color-accent);
+.login-btn{
+     color: var(--color-text-primary);
+}
+
+.login-btn:hover {
+    background: var(--color-accent);
+    border: none;
+    padding: 18px 16px;
+    color:var(--color-text-primary);
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+/* Search btn */
+.cart:hover{
+    color: var(--color-accent);
+    border-color: var(--color-accent);
+}
+
+.icon{
+    color: var(--color-text-primary);
+}
+
+.icon:hover{
+    color: var(--color-accent);
+}
+
+.dropdown-menu {
+  background-color: var(--color-bg-card);
   border: none;
-  padding: 8px 16px;
-  color: white;
-  border-radius: 6px;
-  cursor: pointer;
+}
+
+.dropdown-item,.dropdown,.dropdown-toggle{
+  color: var(--color-text-primary);
+}
+
+.dropdown-toggle {
+  color: var(--color-text-primary) !important;
+}
+
+.dropdown-divider{
+    color: var(--color-text-primary);
+}
+.dropdown-item:hover {
+  background-color: var(--color-bg-secondary);
+  color: var(--color-accent);
 }
