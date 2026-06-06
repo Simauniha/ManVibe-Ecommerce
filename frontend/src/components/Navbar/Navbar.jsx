@@ -22,7 +22,7 @@ function Navbar() {
 
     <>
       <nav className="navbar navbar-expand-lg">
-        <div className="container">
+        <div className="container-fluid">
           <a className="navbar-brand logo" href="/">
             <img src={logo} alt="ManVibe Logo" />
           </a>
