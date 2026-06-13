@@ -1,6 +1,6 @@
 import "./Contact.css";
 
-function Contact() {
+const Contact = () => {
   return (
     <>
     hhh
