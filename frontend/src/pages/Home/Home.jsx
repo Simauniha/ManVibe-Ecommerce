@@ -42,8 +42,8 @@ function Home() {
                     <div className="col-sm-6"></div>
                 </div>
             </div> */}
-            <section class="home">
-                <div class="home-content">
+            <section className="home">
+                <div className="home-content">
                     <h1>Welcome to My Website</h1>
                     <p>This is my homepage</p>
                 </div>
