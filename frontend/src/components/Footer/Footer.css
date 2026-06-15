@@ -18,8 +18,12 @@
   min-width: 200px;
 }
 
+.section2 p {
+  padding-top: 18px;
+}
+
 .footer-section img {
-  height: 205px;
+  height: 106px;
 }
 
 /* Links */
@@ -49,4 +53,21 @@
   border-top: 1px solid #222;
   padding-top: 20px;
   font-size: 14px;
+}
+
+.footer-icon {
+  gap: 20px;
+  padding-top: 27px;
+}
+
+.icon-btn {
+  color: var(--color-text-primary);
+  border: solid 2px var(--color-text-primary);
+  border-radius: 50%;
+}
+
+.icon-btn:hover {
+  color: var(--color-accent2);
+  border: solid 2px var(--color-accent);
+  border-radius: 50%;
 }
