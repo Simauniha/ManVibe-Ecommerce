@@ -2,7 +2,7 @@ import React from 'react'
 import "./Home.css"
 import Navbar from '../../components/Navbar/Navbar'
 
-function Home() {
+const Home = () => {
     return (
         <>
             {/* <Navbar />
@@ -19,7 +19,7 @@ function Home() {
                 </div>
 
             </section> */}
-            <Navbar />
+            {/* <Navbar /> */}
             {/* <div className="img-conatainer">
 
 

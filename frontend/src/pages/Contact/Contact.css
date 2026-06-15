@@ -1,0 +1,106 @@
+/* Background */
+.contact-wrapper {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #0f0f0f, #1a1a1a);
+}
+
+/* Glass card */
+.contact-card {
+  width: 80%;
+  max-width: 1000px;
+  background: rgba(255, 255, 255, 0.03);
+  backdrop-filter: blur(15px);
+  border-radius: 12px;
+  border: 1px solid rgba(212, 175, 55, 0.2);
+  box-shadow: 0 0 40px rgba(0,0,0,0.6);
+}
+
+/* Typography */
+.title {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.subtitle {
+  color: #aaa;
+  margin-bottom: 20px;
+}
+
+/* Inputs */
+.input {
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 10px;
+  background: transparent;
+  border: 1px solid #333;
+  color: #fff;
+  outline: none;
+  transition: 0.3s;
+}
+
+/* 🔥 GOLD FOCUS EFFECT */
+.input:focus {
+  border-color: var(--color-accent2);
+  box-shadow: 0 0 8px var(--color-accent);
+}
+
+/* Button */
+.send-btn {
+  width: 100%;
+  padding: 10px;
+  background: linear-gradient(135deg, var(--color-accent2), var(--color-accent));
+  border: none;
+  color: var(--color-bg-main);
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.send-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px var(--color-accent);
+}
+
+/* Right section */
+.info-title {
+  font-weight: 600;
+}
+
+.info-text {
+  color: #aaa;
+  margin-bottom: 20px;
+}
+
+.contact-info {
+  margin-bottom: 5px;
+}
+
+/* Social icons */
+.socials {
+  margin-top: 15px;
+  display: flex;
+  gap: 15px;
+  font-size: 18px;
+  color: var(--color-text-primary);
+}
+
+.socials svg {
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.socials svg:hover {
+  color: var(--color-accent2);
+  transform: translateY(-3px) scale(1.1);
+}
+
+.icon-btn {
+  color: var(--color-text-primary);
+  border: solid 2px var(--color-text-primary);
+  border-radius: 50%;
+}
+
+.icon-btn:hover {
+  color: var(--color-accent2);
+  border: solid 2px var(--color-accent);
+  border-radius: 50%;
+}

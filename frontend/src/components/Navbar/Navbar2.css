@@ -1,0 +1,97 @@
+.navbar {
+    position: fixed;
+    /* position:sticky; */
+    top: 0;
+    width: 100%;
+    padding: 20px;
+
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+
+    background: var(--color-bg-main);
+    color: var(--color-text-primary);
+
+    z-index: 1000;
+}
+
+.navbar {
+    backdrop-filter: blur(10px);
+}
+
+/* Logo */
+
+.logo img {
+    height: 55px;
+    object-fit: contain;
+}
+
+/* Links */
+
+.nav-link.active {
+    color: var(--color-text-primary) !important;
+}
+
+.nav-link {
+    color: var(--color-text-primary);
+}
+
+.nav-link:hover {
+    color: var(--color-accent) !important;
+    /* border-bottom: 2px solid var(--color-accent);
+    color: var(--color-text-primary); */
+}
+
+/* Button */
+.login-btn {
+    color: var(--color-text-primary);
+    min-width: 90px;
+    text-align: center;
+}
+
+.login-btn:hover {
+    background: var(--color-accent);
+    border: none;
+    /* padding: 18px 16px; */
+    color: var(--color-text-primary);
+    /* border-radius: 6px; */
+    cursor: pointer;
+}
+
+/* Search btn */
+.cart:hover {
+    color: var(--color-accent);
+    border-color: var(--color-accent);
+}
+
+.icon {
+    color: var(--color-text-primary);
+}
+
+.icon:hover {
+    color: var(--color-accent);
+}
+
+.dropdown-menu {
+    background-color: var(--color-bg-card);
+    border: none;
+}
+
+.dropdown-item,
+.dropdown,
+.dropdown-toggle {
+    color: var(--color-text-primary);
+}
+
+.dropdown-toggle {
+    color: var(--color-text-primary) !important;
+}
+
+.dropdown-divider {
+    color: var(--color-text-primary);
+}
+
+.dropdown-item:hover {
+    background-color: var(--color-bg-secondary);
+    color: var(--color-accent);
+}
